@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'; 
 
 const Projects = () => {
   const [filter, setFilter] = useState('all');
@@ -11,7 +11,7 @@ const Projects = () => {
       image: "react-ecommerce2.jpg",
       description: "A responsive e-commerce website built with vanilla HTML, CSS, and JavaScript featuring product listings, shopping cart functionality, and checkout process.",
       technologies: ["HTML5", "CSS3", "JavaScript", "LocalStorage", "Responsive Design"],
-      liveLink: "https://basic-ecommerce.example.com",
+      liveLink: "https://github.com/nandhuprojects/ecommerce-website",
       githubLink: "https://github.com/nandhuprojects"
     },
     {
@@ -21,7 +21,7 @@ const Projects = () => {
       image: "react-ecommerce.jpg",
       description: "A full-featured e-commerce application built with React featuring product filtering, user authentication, state management, and payment integration.",
       technologies: ["React", "Node.js", "Express", "MongoDB", "Redux", "Stripe"],
-      liveLink: "https://react-ecommerce.example.com",
+      liveLink: "https://github.com/nandhuprojects/EcommerceUsingReact",
       githubLink: "https://github.com/nandhuprojects"
     },
     {
@@ -31,7 +31,7 @@ const Projects = () => {
       image: "apartment-maintenance.jpg",
       description: "An intelligent system for apartment maintenance management, allowing residents to report issues, track repairs, and communicate with maintenance staff.",
       technologies: ["React", "Node.js", "Express", "MongoDB", "WebSockets", "JWT Authentication"],
-      liveLink: "https://smart-apartment.example.com",
+      liveLink: "https://github.com/nandhuprojects/SmartApartmentMaintenanceSystem",
       githubLink: "https://github.com/nandhuprojects"
     },
     {
@@ -41,7 +41,7 @@ const Projects = () => {
       image: "simple-portfolio.jpg",
       description: "A clean and responsive personal portfolio website showcasing projects, skills, and professional information with smooth animations and modern design.",
       technologies: ["HTML5", "CSS3", "JavaScript", "GSAP Animation", "Responsive Design"],
-      liveLink: "https://portfolio.example.com",
+      liveLink: "https://github.com/nandhuprojects/PortfolioWebsite",
       githubLink: "https://github.com/nandhuprojects"
     }
   ];
